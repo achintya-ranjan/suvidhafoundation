@@ -1,0 +1,59 @@
+.testimonial img
+{
+    height:600px;
+    width:400px;
+}
+@media screen and (min-width: 576px){
+    .testimonial .carousel-inner{
+        display:flex;
+        gap:20px;
+    }
+    .testimonial .carousel-item{
+        display:block;
+        margin-right:0;
+        flex:0 0 calc(100%/3);
+    }
+}
+.testimonial h2{
+    font-size: 20px;
+    margin: 100px 0px 0px 0px;
+    text-align:center;
+    font-family: "Jost", sans-serif;
+    font-weight: bold;
+}
+.testimonial h1{
+    text-align:center;
+    font-size: 60px;
+    font-family: "Jost", sans-serif;
+}
+.testimonial
+{
+    display:flex;
+    flex-direction: column;
+    gap:30px;
+}
+.testimonial_id
+{
+    display:flex;
+    flex-direction:row;
+    gap:30px;
+}
+.testimonial  .ViewAll
+{
+    margin:30px;
+    border-radius: 10px;
+    height:50px;
+    width:140px;
+    font-size:20px;
+    font-family: "Roboto Slab", serif;
+    background-color: white;
+    color:black;
+    border:1px solid black;
+    font-weight:500;
+    margin:auto;
+    /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
+}
+.testimonial .ViewAll:hover
+{
+    background-color:#028391;
+}

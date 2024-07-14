@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+.descripage{
+    border: 1px solid white;
+    background-color: white;
+    transition: background-color 1.5s;
+    padding:50px;
+    display:flex;
+    flex-direction:column;
+    width:100vh;
+    gap:10px;
+    border-radius:10px;
+    height:600px;
+    margin: 30px 0px 0px 0px;
+}
+.descripage .lilnavbar
+{
+    display:flex;
+    flex-direction:row;
+    gap:20px;
+}
+.descripage p{
+    color:black;
+    font-size:20px;
+}
+.descripage h3{
+    font-family: "Jost", sans-serif;
+    font-size: 15px;
+}
+.descripage h2{
+    font-family: "Jost", sans-serif;
+    font-size:30px;
+}
+.lilnavbar div
+{
+    font-family: "Jost", sans-serif;
+    border: solid white;
+    border-width: 0px 0px 2px 0px;
+}
+.lilnavbar div:hover
+{
+    color:#BC5A94;
+    border-color:black;
+}
+.descripage:hover{
+    background-color: #FFD0D0;;
+}
+.lilnavbar p{
+    font-family: "Jost", sans-serif;
+}

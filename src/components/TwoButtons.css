@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+.mb-2 .btn
+{
+  height:40px;
+  width:130px;
+  font-size:15px;
+  background-color:black;
+  margin:10px;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  color:white;
+  border:1px solid black;
+}
+.mb-2 .btn:hover{
+  background-color:white;
+  color:black;
+}

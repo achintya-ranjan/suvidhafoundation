@@ -1,0 +1,107 @@
+.teams_main_container h2{
+    font-size: 30px;
+    text-align:center;
+    font-family: "Jost", sans-serif;
+    font-weight: bold;
+    text-align:center;
+}
+.teams_main_container h1{
+    text-align:center;
+    font-size: 70px;
+    font-family: "Jost", sans-serif;
+}
+.mem_overlay h1
+{
+    margin: 15px 0px 10px 0px;
+    text-align:center;
+    font-size:40px;
+}
+.mem_overlay h2{
+    font-size: 20px;
+    margin: 20px 0px 20px 0px;
+}
+.meetourteam .teams_container
+{
+    margin:2%;
+    position: relative;
+    width:auto;
+}
+.meetourteam .mem_image
+{
+    width:100%;
+    height:auto;
+    height:400px;
+    width:300px;
+}
+.meetourteam .mem_overlay
+{
+    position:absolute;
+    bottom:0;
+    left:0%;
+    right:0;
+    background-color:rgba(255,255,255,0.99);
+    overflow:hidden;
+    width:100%;
+    height:0;
+    transition: 0.5s ease;
+}
+.teams_container:hover .mem_overlay{
+    height:60%;
+}
+.meetourteam
+{
+    display: flex;
+    flex-direction: row;
+    gap:5px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+/* .teams_main_container
+{
+    text-align:center;
+} */
+/* .teams_main_container h1,h2 
+{
+    font-size: 60px;
+    text-align:center;
+    font-family: "Jost", sans-serif;
+    margin:2px;
+} */
+.teams_main_container
+{
+    margin:100px 0px 100px 0px;
+    width:100%;
+}
+/* .mem_overlay h1,h2{
+    width:100%;
+    margin-top:30%;
+    color:white;
+    font-size:4vw;
+    position:absolute;
+    text-align:center; 
+    transform:rotate(-5deg)skewX(-5deg);
+} */
+
+
+
+/* CSS */
+.mem_button
+{
+    position:relative;
+    height:30px;
+    width:50px;
+    font-size:15px;
+    font-family: "Roboto Slab", serif;
+    border-radius:0px;
+    left:40%;
+    padding:2px;
+    background-color: #074173;
+    border:0px;
+}
+.mem_button:hover 
+{
+    background-color: white;
+    color:#102C57;
+    font-weight: 900;
+    border:1px solid black;
+}

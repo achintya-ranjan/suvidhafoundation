@@ -1,38 +1,57 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NZ:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+VIC:wght@100..400&family=Playwrite+IN:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lilita+One&display=swap');
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    text-decoration:none;
+    list-style:none;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
 }
+body{
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.owncontainer{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    gap:20px 0px 0px 0px;
+    padding:80px;
 }
-
-.App-link {
-  color: #61dafb;
+body{
+    background-color:#FFBF00;
+    margin:0;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.twobuttonspage
+{
+    display:flex;
+    justify-content:center;
+}
+.changeofcolour
+{
+    background-color: #FFFAED;
+    width:100vh;
+}
+.changecolouryellow
+{
+    width:100%;
+    background-color: #E9B824;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+.internpic
+{
+    width:100%;
+}
+.slides
+{
+    width:1000px;
 }

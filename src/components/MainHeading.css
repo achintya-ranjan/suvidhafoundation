@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap');
+.heading h1{
+    width:auto;
+    height:auto;
+    color: #1A2130;
+    font-family: "Libre Franklin", sans-serif;
+    -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: black;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 130px;
+}
+.heading img{
+    float :left;
+    margin:0px 50px 0px 0px;
+}
+.heading p{
+    clear:left;
+    font-size:60px;
+    font-family: "Playwrite IN", cursive;
+    padding:30px 30px 30px 0px;
+}
+.heading
+{
+    margin:30px;
+    padding:50px;
+}
