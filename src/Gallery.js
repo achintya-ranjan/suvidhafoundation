@@ -28,47 +28,47 @@ function Gallery()
             <div className="gallerypics">
                 <div className="gallerypicelement">
                     <img src={gallery1} alt=""/>
-                    <h3>FREE WORKSHOPS</h3>
+                    <h3><a href="" targt="_blank">FREE WORKSHOPS</a></h3>
                 </div>
                 <div className="gallerypicelement">
                     <img src={gallery2} alt=""/>
-                    <h3>BOOKS DISTRIBUTION</h3>
+                    <h3><a href="" targt="_blank">BOOKS DISTRIBUTION</a></h3>
                 </div>
                 <div className="gallerypicelement">
                     <img src={gallery3} alt=""/>
-                    <h3>ONLINE gallery</h3>
+                    <h3><a href="" targt="_blank">ONLINE gallery</a></h3>
                 </div>
                 <div className="gallerypicelement">
                     <img src={gallery4} alt=""/>
-                    <h3>CLOTH DISTRIBUTION</h3>
+                    <h3><a href="" targt="_blank">CLOTH DISTRIBUTION</a></h3>
                 </div>
                 <div className="gallerypicelement">
                     <img src={gallery5} alt=""/>
-                    <h3>TREE PLANTATION</h3>
+                    <h3><a href="" targt="_blank">TREE PLANTATION</a></h3>
                 </div>
                 <div className="gallerypicelement">
                     <img src={gallery6} alt=""/>
-                    <h3>FREE EDUCATION</h3>
+                    <h3><a href="" targt="_blank">FREE EDUCATION</a></h3>
                 </div>
                 <div className="gallerypicelement">
                     <img src={gallery7} alt=""/>
-                    <h3>WOMEN'S DAY</h3>
+                    <h3><a href="" targt="_blank">WOMEN'S DAY</a></h3>
                 </div>
                 <div className="gallerypicelement">
                     <img src={gallery8} alt=""/>
-                    <h3>FOOD DISTRIBUTION</h3>
+                    <h3><a href="" targt="_blank">FOOD DISTRIBUTION</a></h3>
                 </div>
                 <div className="gallerypicelement">
                     <img src={gallery9} alt=""/>
-                    <h3>SUVIDHA gallery</h3>
+                    <h3><a href="" targt="_blank">SUVIDHA GALLERY</a></h3>
                 </div>
                 <div className="gallerypicelement">
                     <img src={gallery10} alt=""/>
-                    <h3>EMPOWERING WOMEN</h3>
+                    <h3><a href="" targt="_blank">EMPOWERING WOMEN</a></h3>
                 </div>
                 <div className="gallerypicelement">
                     <img src={gallery11} alt=""/>
-                    <h3>ANIMAL FEEDING</h3>
+                    <h3><a href="" targt="_blank">ANIMAL FEEDING</a></h3>
                 </div>
 
             </div>

@@ -20,7 +20,7 @@ function Contactus()
                 <div class="messagewrapper">
                     <img src={sendmessage} alt="sendmessage" class="sendmessage"/>
                     <div class="messagecontent">
-                        <Button  className="Sendmessage" variant="primary" size="lg" href="https://colorhunt.co/" target="_blank">
+                        <Button  className="Sendmessage" variant="primary" size="lg" href="https://docs.google.com/forms/d/e/1FAIpQLSfAaaHU-k256CY6_83JPBOYeVFtKuKBvqMJb7oBIsDLKRmwNg/viewform" target="_blank">
                             Send Message
                         </Button>  
                     </div>

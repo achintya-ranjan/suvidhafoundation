@@ -77,4 +77,22 @@
     flex-wrap:wrap;
     justify-content: center;
 }
-    
+.Eventspage 
+{
+    padding-top:100px;
+}
+@media (max-width:800px){
+    .Eventscontent > h1
+    {
+        font-size:80px;
+    }
+    .Eventspics .Eventspicelement img,p,h1
+    {
+        width:50%;
+        height:50%;
+    }
+    .Eventspics .Eventspicelement p
+    {
+        width:auto;
+    }
+}

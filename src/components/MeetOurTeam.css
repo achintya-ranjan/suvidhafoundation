@@ -105,3 +105,9 @@
     font-weight: 900;
     border:1px solid black;
 }
+@media (max-width:800px)
+{
+    .teams_main_container h2,h1{
+        font-size:30px !important;
+    }
+}

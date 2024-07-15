@@ -29,11 +29,11 @@ nav ul li a
     color:white;
     font-size:20px;
     text-transform:uppercase;   
-    margin:30px;
+    margin:10px;
     padding:7px 13px;
     border-radius:5px;
 }
-a:hover
+nav ul li a:hover
 {
     background:#1b9bff;
     transition:0.5s;
@@ -61,7 +61,7 @@ a:hover
         font-size:16px;
     }
 }
-@media (max-width:858px)
+@media (max-width:1420px)
 {
     .checkbtn{display:block;}
     ul

@@ -32,3 +32,14 @@
     font-family: Raleway, "sane seriff";
     margin:0px 50px 0px 50px;
 }
+@media (max-width:800px)
+{
+    .content2 p
+    {
+        font-size:20px !important;
+    }
+    .content2
+    {
+        height:150px;
+    }
+}

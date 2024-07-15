@@ -6,8 +6,14 @@ function Footer()
         <footer>
             <div className="footercontainer">
                 <div className="sec aboutus">
-                    <h2>About Us</h2>
-                    <p>sjjdfbkjvbskvjsndvsdjnswkdn</p>
+                    <h2>Suvidha Foundation<br></br> (Suvidha Mahila Mandal)</h2>
+                    <p>Office Headquarters -<br></br>
+                            Nagpur Headquarter:<br></br>
+                            Suvidha Foundation, Walni Ward No. 1, Jai Bhole Nagar, Walni, Saoner<br></br> Nagpur, Maharashtra 441102
+                            <br></br>
+                            Hyderabad Headquarter:<br></br>
+                            Vazhra Nirman Pushpak, C Block 701, 500090, Hyderabad
+                    </p>
                     <ul className="sci">    
                         <li><a href="https://www.facebook.com/suvidhamahilamandal/" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
                         <li><a href="https://www.instagram.com/suvidha_mahila_mandal" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>

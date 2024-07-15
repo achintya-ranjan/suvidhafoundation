@@ -3,5 +3,17 @@
     text-align: center;
 }
 .maincarousel h3{
-    color:#FFF7FC;
+    color:black;
+    font-size:50px;
+    font-weight: 1000;
+}
+.carousel-control-next-icon
+{
+    color:black;
+    background-color: black;
+}
+.carousel-control-prev-icon
+{
+    color:black;
+    background-color: black;
 }

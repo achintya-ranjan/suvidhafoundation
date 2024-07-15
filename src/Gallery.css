@@ -67,4 +67,11 @@
     flex-wrap:wrap;
     justify-content: center;
 }
-    
+.gallerypage{
+    padding-top:100px;
+}
+.gallerypicelement  a
+{
+    text-decoration:none !important;
+    color:black;
+}

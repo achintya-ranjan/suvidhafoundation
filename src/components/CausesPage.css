@@ -55,3 +55,17 @@
 .CausesInfo .CausesName span{
     font-size:30px;
 }
+@media (max-width:800px)
+{
+    img{
+        height:50%;
+        width:50%;
+    }
+    .CausesName .row1 p{
+        font-size:10px !important;
+    }
+    .CausesName .row2 p{
+        font-size:10px !important;
+    }
+
+}

@@ -47,3 +47,15 @@
 .lilnavbar p{
     font-family: "Jost", sans-serif;
 }
+@media (max-width:800px)
+{
+    .descripage h2,h3,p
+    {
+        font-size:10px !important;
+    }
+    .descripage
+    {
+        width:fit-content;
+        height:fit-content;
+    }
+}

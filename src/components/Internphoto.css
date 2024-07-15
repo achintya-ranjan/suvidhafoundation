@@ -48,3 +48,21 @@
 {
     background-color:#028391;
 }
+@media (max-width:800px)
+{
+    .content h1,h3
+    {
+        font-size:10px !important;
+    }
+    .wrapper .content    .ApplyButton
+    {
+        height:30px !important;
+    width:50px!important;
+    font-size:5px !important;
+    }
+    .wrapper
+    {
+        margin-top:50px;
+        margin-bottom:50px;
+    }
+}

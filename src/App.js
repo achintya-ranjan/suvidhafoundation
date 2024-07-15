@@ -6,11 +6,20 @@ import "./App.css";
 import Gallery from "./Gallery.js";
 import Footer from "./Footer.js";
 import NavbarPage from "./NavbarPage.js";
+import {BrowserRouter , Routes, Route} from "react-router-dom";
 function App() {
   return (
-    <><NavbarPage/>
-    <Home/>
-    <Footer/></>
+    <BrowserRouter>
+    <NavbarPage/>
+      <Routes>
+        <Route path="/suvidhafoundation" element={<Home/>}/>
+        <Route path="/suvidhafoundation/Help" element={<Helpus/>}/>
+        <Route path="/suvidhafoundation/Events" element={<Events/>}/>
+        <Route path="/suvidhafoundation/Gallery" element={<Gallery/>}/>
+        <Route path="/suvidhafoundation/Contact" element={<Contactus/>}/>
+      </Routes>
+      <Footer/>
+    </BrowserRouter>
   );
 }
 export default App;

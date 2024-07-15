@@ -57,3 +57,17 @@
 {
     background-color:#028391;
 }
+@media (max-width:800px)
+{
+    .testimonial_id
+    {
+        display:flex;
+        flex-direction:column;
+        gap:30px;
+    }
+    .testimonial_id img
+    {
+        height:450px;
+        width:300px;
+    }
+}
