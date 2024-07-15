@@ -4,7 +4,7 @@ import qrcode from "./components/images/qrcode.jpg";
 function Helpus()
 {
     return(
-        <div>
+        <div className="helppage">
             <div className="helpwrapper">
                 <div className="helpimage">
                     <img src={helpuspicture} className="helpus"/>
