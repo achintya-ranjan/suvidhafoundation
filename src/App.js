@@ -12,11 +12,11 @@ function App() {
     <BrowserRouter>
     <NavbarPage/>
       <Routes>
-        <Route path="/suvidhafoundation" element={<Home/>}/>
-        <Route path="/suvidhafoundation/Help" element={<Helpus/>}/>
-        <Route path="/suvidhafoundation/Events" element={<Events/>}/>
-        <Route path="/suvidhafoundation/Gallery" element={<Gallery/>}/>
-        <Route path="/suvidhafoundation/Contact" element={<Contactus/>}/>
+        <Route path="/" element={<Home/>}/>
+        <Route path="/Help" element={<Helpus/>}/>
+        <Route path="/Events" element={<Events/>}/>
+        <Route path="/Gallery" element={<Gallery/>}/>
+        <Route path="/Contact" element={<Contactus/>}/>
       </Routes>
       <Footer/>
     </BrowserRouter>

@@ -1,7 +1,6 @@
 import './App.css';
 import mainphoto from "./components/images/empowerment.jpg";
 import CarouselPage from "./components/Carousel";
-import NavbarPage from "./components/NavbarPage.js";
 import TwoButtons from './components/TwoButtons.js';
 import DescriptionPage from "./components/DescriptionPage.js";
 import Internphoto from "./components/Internphoto.js";
